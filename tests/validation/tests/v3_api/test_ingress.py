@@ -10,7 +10,7 @@ RANCHER_CLUSTER_NAME - Cluster name to run test on
 RANCHER_TEST_RBAC - Boolean (Optional), To run role based tests.
 """
 
-from .common import CLUSTER_MEMBER, is_version_greater_than_v25
+from .common import CLUSTER_MEMBER
 from .common import CLUSTER_OWNER
 from .common import PROJECT_READ_ONLY
 from .common import PROJECT_OWNER
